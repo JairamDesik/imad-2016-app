@@ -6,6 +6,6 @@ element.innerHTML = 'It is FUN';
 
 //Move the Image
 var img = document.getElementById('imad');
-img.onclick = functon(){
+img.onclick=function(){
     img.style.marginLeft = '100px';
 };
