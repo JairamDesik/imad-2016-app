@@ -36,7 +36,6 @@ var article={
     }
 };
 
-
 function createTemplate(data){
     var title=data.title;
     var heading=data.heading;
