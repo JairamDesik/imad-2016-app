@@ -6,6 +6,11 @@ element.innerHTML = 'It is FUN';
 
 //Move the Image
 var img = document.getElementById('imad');
+var marginLeft = 0;
+function moveRight(){
+    marginLeft+=10;
+    img.style.marginLeft+='px';
+}
 img.onclick=function(){
-    img.style.marginLeft = '100px';
+    var interval=setInterval(moveRight,10);
 };
