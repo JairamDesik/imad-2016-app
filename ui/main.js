@@ -16,7 +16,7 @@ element.innerHTML = 'It is FUN';
 //};
 
 //Counter code
-var button = document.getElementyId('countre');
+var button = document.getElementyById('countre');
 var counter = 0;
 button.onclick = function(){
     counter++;
