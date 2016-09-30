@@ -37,7 +37,7 @@ button.onclick = function () {
 };
 
 //Submit name
-var submit = document.getElementById('submit-name');
+/*var submit = document.getElementById('submit-name');
 submit.onclick = function(){
     //Create a request Object
     var request = new XMLHttpRequest();
@@ -64,4 +64,4 @@ submit.onclick = function(){
     var name = nameInput.value;
     request.open('GET','http://jairamdesik.imad.hasura-app.io/submit-name?name='+name,true);
     request.send(null);
-};
+};*/
