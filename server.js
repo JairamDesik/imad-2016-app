@@ -94,9 +94,8 @@ app.get('/submit-name/:name',function(req,res){
     var name = req.params.name;
     names.push(name);
     //JSON:Javascript Object Notation
-    res.send(JSON.Stringfy(names));
+    res.send(JSON.stringify(names));
 });
-
 app.get('/:articleName',function (req,res){
   var articleName=req.params.articleName;    
   res.send(createTemplate(article[articleName]));
