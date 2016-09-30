@@ -89,9 +89,9 @@ app.get('/favicon.ico', function(req, res){
 });
 
 var names = [];
-app.get('/submit-names',function(req,res){
+app.get('/submit-names/:name',function(req,res){
     //Get the namefrom the request
-    var names = req.query.name;
+    var names = req.params.name;
     names.push(name);
     //JSON:Javascript Object Notation
     res.send(JSON.stringfy(names));
