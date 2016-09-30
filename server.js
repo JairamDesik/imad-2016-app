@@ -88,6 +88,15 @@ app.get('/favicon.ico', function(req, res){
     res.sendFile(path.join(__dirname, 'ui', 'favicon.ico'));
 });
 
+var names = [];
+app.get('/submit-names',function(req,res){
+    //Get the namefrom the request
+    var names = req.query.name;
+    names.push(name);
+    //JSON:Javascript Object Notation
+    res.send(JSON.stringfy(names));
+});
+
 app.get('/:articleName',function (req,res){
   var articleName=req.params.articleName;    
   res.send(createTemplate(article[articleName]));
