@@ -54,7 +54,7 @@ function createTemplate(data){
         <div class = "container">
          <div>
              <a href="/">Home</a>
-             <span style="display:inline-block; width: YOURWIDTH;"></span>
+             <span style="display:inline-block; width: 20;"></span>
              <a href="/article-one">ARTICLE ONE</a>
              <span style="display:inline-block; width: YOURWIDTH;"></span>
              <a href="/article-two">ARTICLE TWO</a>
