@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    background-image: https://a2ua.com/sceneries/sceneries-001.jpg;
+    background-image: url("https://a2ua.com/sceneries/sceneries-001.jpg");
     margin-top: 75px;
 }
 
