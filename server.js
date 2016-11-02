@@ -53,7 +53,7 @@ function createTemplate(data){
     <body>
         <div class = "container">
          <div>
-             <a href="/">Home</a>
+             <a href="/">Home</a><br></br>
              <a href="/article-one">ARTICLE ONE</a>
              <a href="/article-two">ARTICLE TWO</a>
              <a href="/article-three">ARTICLE THREE</a>
