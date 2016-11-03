@@ -11,7 +11,7 @@ var article={
         heading:'ARTICLE ONE',
         date:'oct 5,2016',
         content:` <p>
-                    hi! mama You are the creater of your own destiny                                         hi! mama You are the creature of your own destiny
+                    Hey Guys This Is JAi RAm Desik Saying a warm welcome to you fellas
         
                 </p>`
     },
@@ -20,7 +20,7 @@ var article={
         heading:'ARTICLE TWO',
         date:'oct 5,2016',
         content:` <p>
-                    hi! mama You are the creater of your own destiny                               
+                    Yo check it out this is my second article                              
         
                 </p>`
         
@@ -30,7 +30,8 @@ var article={
         heading:'ARTICLE THREE',
         date:'oct 30,2016',
         content:` <p>
-                    hi! mama You are the creater of your own destiny                           
+                    NARAYANAM JAI RAM DESIK
+                    TI SI YM EMAN 
         
                 </p>`
     }
