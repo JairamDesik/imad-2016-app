@@ -16,7 +16,7 @@ var app = express();
 app.use(morgan('combined'));
 app.use(bodyParser.json());
 
-/*var article={
+var article={
     'article-one':{
         title:'This is It',
         heading:'ARTICLE ONE',
@@ -46,8 +46,8 @@ app.use(bodyParser.json());
         
                 </p>`
     }
-};*/
-/*
+};
+
 function createTemplate(data){
     var title=data.title;
     var heading=data.heading;
@@ -90,12 +90,12 @@ function createTemplate(data){
 
  `;
 return htmlTemplate;
-}*/
+}
 
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
-/*
+
 function hash(input,salt){
     //How do we create hash?
     var hashed = crypto.pbkdf2Sync(input, salt, 100000, 512, 'sha512');
@@ -190,7 +190,7 @@ app.get('/article/:articleName',function (req,res){
       }
   });
 });
-*/
+
 
 
 app.get('/ui/style.css', function (req, res) {
