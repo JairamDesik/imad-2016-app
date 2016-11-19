@@ -106,7 +106,7 @@ app.get('/hash/:input',function(req,res){
     res.send(hashedString);
 });
 
-app.post('/create-user',function(req,res){
+/*app.post('/create-user',function(req,res){
     //username,password
     //JSON
     var username = req.body.username;
@@ -120,7 +120,7 @@ app.post('/create-user',function(req,res){
             res.send('User successfully created:' + username);
         }        
     });
-});
+});*/
 
 var pool = new Pool(config);
 app.get('/test-db',function(req,res){
