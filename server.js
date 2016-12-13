@@ -67,7 +67,7 @@ function createTemplate(data){
          <div>
              <a href="/">Home</a>
              <span style="display:inline-block; width: 100;"></span>
-             <a href="/article#article-one">ARTICLE ONE</a>
+             <a href="/article/article-one">ARTICLE ONE</a>
              <span style="display:inline-block; width: 100;"></span>
              <a href="/article/article-two">ARTICLE TWO</a>
              <span style="display:inline-block; width: 100;"></span>
@@ -176,7 +176,7 @@ app.get('/submit-name',function(req,res){
     res.send(JSON.stringify(names));
 });
 
-app.get('/article#:articleName',function (req,res){
+app.get('/article/:articleName',function (req,res){
   pool.query("SELECT * FROM article WHERE title =$1",[req.params.articleName],function(err,result){
       if(err){
           res.status(500).send(err.toString());
