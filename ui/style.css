@@ -52,6 +52,30 @@ body {
     color: #333;
     background-color: #fff;
 }           
+nav ul {
+  padding: 20px;
+  margin: 0 auto;
+  list-style: none;
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+nav ul li a {
+  padding: 10px 0;
+  color: #fff;
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.2s ease;
+}
+nav ul li a:hover {
+  color: #34495E;
+}
+.active {
+  border-bottom: 2px solid #ecf0f1;
+}
 
            
            
