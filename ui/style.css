@@ -39,6 +39,16 @@ body {
     background-color: #eee;
 }
 
+.navbar-inverse {
+    background-color: #1b1f17;
+    border-color: #1b2f16;
+}
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+}
            
 
            
